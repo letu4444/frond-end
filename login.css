@@ -1,0 +1,244 @@
+
+body{
+    font-family: "Poppins";
+}
+.dangnhap{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.dangnhap1{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 400px;
+    margin: 50px 300px;
+}
+.dangnhap1-1{
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;
+}
+.dangnhap1-2{
+    font-size: 22px;
+    width: 70%;
+}
+.dangnhap1-3{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 12px;
+    color: #757575;
+}
+.dangnhap1-3-1{
+    color: #1a9cb7;
+    text-decoration: none;
+    padding: 0px 2px;
+}
+.dangnhap2{
+    background-color: #fff;
+    height: auto;
+    padding: 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.dangnhap1-4{
+    display: flex;
+    margin-top: 15px;
+}
+.dangnhap1-5{
+    width: 60%;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.dangnhap1-6, .dangky1-8{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+}
+.dangnhap1-5-1,.dangnhap1-5-2{
+    position: absolute;
+    right: 10px;
+    top: 32px;
+    cursor: pointer;
+    z-index: 2;
+    background-color: #fff;
+}
+.dangnhap1-5-1{
+    display: none;
+    background-color: transparent;
+    
+}
+.dangnhap1-5-2{
+    width: 25px;
+}
+.dangnhap1-5-1::before{
+    content: "\f057";
+    font-family: FontAwesome;
+    font-size: 22px;
+    color: #757575;
+}
+._password .dangnhap1-5-1{
+    right: 45px;
+}
+.dangnhap1-5-2::before{
+    content: "\f070";
+    font-family: FontAwesome;
+    font-size: 22px;
+    color: #757575;
+}
+._4::before{
+    content: "\f06e";
+    font-family: FontAwesome;
+    font-size: 22px;
+    color: #757575;
+}
+.dangnhap1-6-1{
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #424242;
+}
+.dangnhap1-6-3{
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+    
+}
+.dangnhap1-6-2{
+    margin-top: 10px;
+    font-size: 14px;
+    color: red;
+
+}
+.dangnhap1-7{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+
+}
+.dangnhap1-7-1{
+    text-decoration: none;
+    color: #1a9cb7;
+    font-size: 13px;
+}
+.dangnhap1-8{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 25px;
+    padding-left: 20px;
+    justify-items: baseline;
+}
+.dangnhap1-8-1{
+    font-size: 16px;
+    padding: 15px;
+    color: #fff;
+    background-color: #f57224;
+    border: none;
+    border-radius: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+.dangnhap1-8-1:hover{
+    background-color: #d0611e;
+}
+.dangnhap1-8-1:disabled{
+    opacity: .7;
+    cursor: not-allowed;
+}
+.dangnhap1-8-2{
+    font-size: 14px;
+    color: #757575;
+    margin-bottom: 10px;
+}
+.dangnhap1-8-3{
+    background-color: #3b5998;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+}
+.dangnhap1-8-3::before{
+    content: "\f39e";
+    font-size: 17px;
+    font-family: FontAwesome;
+    margin-right: 10px;
+}
+.dangnhap1-8-4{
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    background-color: #d34836;
+    cursor: pointer;
+
+}
+.fa-google-plus{
+    font-size: 20px;
+    margin-right: 10px;
+    color: #fff;
+}
+.invalid{
+    border:1px solid rgb(248, 39, 39);
+}
+.dangnhap2-6{
+    width: 100%;
+    height: 55px;
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    top: 30px;
+    left: 0;
+    position: absolute;
+    z-index: 10;
+}
+.dangnhap2-1{
+    border: 1px solid red;
+    width: 300px;
+    height: 50px;
+    background-color: #f7eaea;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    box-shadow: 1px 1px 1px 1px #b3b0b0a6;
+}
+.dangnhap2-2{
+    display: flex;
+    font-size: 14px;
+    color: red;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+.dangnhap2-3::after{
+    content: "\f071";
+    font-family: FontAwesome;
+    font-size: 14px;
+    color: red;
+    margin-right: 10px;
+}
+.dangnhap2-4{
+    font-size: 12px;
+}
+.dangnhap2-5{
+    font-size: 12px;
+    color: #f85f4a;
+}
+.loi{
+    display: flex;
+}
